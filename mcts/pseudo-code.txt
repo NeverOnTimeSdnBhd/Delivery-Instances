@@ -23,6 +23,9 @@ function search (level, iterations) {
             if new_tour cost < best_tour cost
                 best_tour = new_tour
                 adapt(best_tour, level)
+            // if the searching time is far too long then directly return the best tour we can search of after limited time
+            if processing_time exceed time limit
+                return best_tour
         globalPolicy = policy[level]
     return best_tour
 }
