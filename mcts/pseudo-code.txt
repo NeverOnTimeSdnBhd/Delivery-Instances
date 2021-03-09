@@ -1,0 +1,75 @@
+/*
+Some variable explanation
+let N = number of customers + depot (refer to the question)
+policy is a 3D array of size (level x N x N), you may initialize it with all 0s
+globalPolicy is one of the policy level with size (N x N) that used by rollout function, similiary you can just initialize it with all 0s
+
+here is a list of configuration parameters setup:
+level = 3
+iterations = 100
+ALPHA = 1
+
+you can try to play around with the configuration parameters and policy to see what's their effect on the outcome
+*/
+
+function search (level, iterations) {
+    initialize best_tour with positive infinity cost
+    if level = 0
+        return rollout()
+    else
+        policy[level] = globalPolicy
+        for iteration from 0 to iterations
+            new_tour = search (level-1, iteration)
+            if new_tour cost < best_tour cost
+                best_tour = new_tour
+                adapt(best_tour, level)
+        globalPolicy = policy[level]
+    return best_tour
+}
+
+function adapt (a_tour, level) {
+    for every route in a_tour
+        for every stop in route
+            policy[level][stop][next_stop] += ALPHA
+            z = 0.0
+            for every possible move that can be made by stop
+                if the move is not visited yet
+                    z += Math.exp(globalPolicy[stop][move]);
+            for every possible move that can be made by stop
+                if the move is not visited yet
+                    policy[level][stop][move] -= ALPHA * (Math.exp(globalPolicy[stop][move]) / z)
+            set stop as visited
+}
+
+function rollout () {
+    initialize new_tour with first route with first stop at 0  // every route must start and end at depot (ID=0)
+    while true
+        currentStop = new_tour last route last stop
+        find every possible successors that is not yet checked for the currentStop
+        if no successors is available
+            currentRoute is completed and should return to depot
+            if all stop are visited
+                break while loop  // rollout process is done
+            add new route into new_tour  // else add new vehicle, again start at depot with ID 0
+            continue  // skip to next loop to continue search a route for new vehicle
+        nextStop = select_next_move(currentStop, possible_successors)
+        if add nextStop to currentRoute does not violate any rules
+            add nextStop to currentRoute
+            set nextStop as visited
+        else
+            set nextStop as checked
+}
+
+function select_next_move(currentStop, possible_successors) {
+    initialize 1d probability array that have same size with possible_successors
+    sum = 0
+    for i=0 to size of possible_successors
+        probability[i] = Math.exp(globalPolicy[currentStop][possible_successors[i]])
+        sum += probability[i]
+    mrand = new Random().nextDouble() * sum
+    i = 0;
+    sum = probability[0];
+    while sum < mrand
+        sum += probability[++i];
+    return possible_successors[i]
+}
