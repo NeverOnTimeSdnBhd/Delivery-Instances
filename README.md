@@ -1,11 +1,11 @@
 # Delivery-Instances
 
 ## Introduction
-Welcome to WIA1002/WIB1002 Data Structure course Session 2020/2021 Semester 2 Group Project 2!  
-This project is about exploring different methods to search for a best route with limited time!  
-I believe it will definitely benefit you as most of the time you would be facing resource limit issue (time/memory) in real word cases thus most of the time theoretical searching algorithm taught in the class are not that useful.  
-As mentioned in the question, should you have any problem please don't hesitate to raise an issue here.  
-Good luck and have fun on this project!  
+1. Welcome to WIA1002/WIB1002 Data Structure course Session 2020/2021 Semester 2 Group Project 2!  
+2. This project is about exploring different methods to search for a best route with limited time!  
+3. I believe it will definitely benefit you as most of the time you would be facing resource limit issue (time/memory) in real word cases thus most of the time theoretical searching algorithm taught in the class are not that useful.  
+4. As mentioned in the question, should you have any problem please don't hesitate to raise an issue here.  
+5. Good luck and have fun on this project!  
 
 
 ## File Structures
