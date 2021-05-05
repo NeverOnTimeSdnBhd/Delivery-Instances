@@ -13,12 +13,14 @@
 .  
 ├── greedy  
 |   └── README.md  
-├── instances  
+├── instances    
+|   ├── README.md
 |   ├── nx-cy.txt  
 |   └── ...  
 ├── mcts  
 |   └── pseudo-code.txt  
-├── update  
+├── update    
+|   └── README.md
 └── README.md  
 ```
 | Folder/File | Descriptions                                                                                                                                    |
