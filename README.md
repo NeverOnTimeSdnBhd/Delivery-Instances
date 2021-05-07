@@ -20,6 +20,7 @@
 ├── mcts  
 |   └── pseudo-code.txt  
 ├── update    
+|   ├── DS Assignment_Delivery Route.pdf
 |   └── README.md
 └── README.md  
 ```
@@ -28,7 +29,7 @@
 |`greedy`     |Folder contains one markdown file to explain what the `greedy simulation` means in the question.                                                 |
 |`instances`  |Resource folder that contains all test sets you can play with.                                                                                   |
 |`mcts`       |Folder contains pseudocode for MCTS algorithm. In future if I have any resources want to share regarding MCTS I will put in this folder as well. |
-|`update`     |Folder contains original question and one markdown file for any update on question or further clarification made.                                |
+|`update`     |Folder contains original question pdf and one markdown file for any update on question or further clarification made.                            |
 |`README.md`  |The document you are currently reading.                                                                                                          |
 
 
