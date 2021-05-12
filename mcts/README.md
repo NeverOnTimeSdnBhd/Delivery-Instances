@@ -17,4 +17,4 @@
 13. After I searched a tour, I update my level 0 policy based on the tour found and its cost.
 14. I then copy the level 0 policy to level 1 policy.
 15. Then I copy the level 1 policy to level 0 policy and go down to second branch of level 0 and perform rollout again.
-16. This process is repeated untill all iterations (iteration is a hyperparameter you fixed).
+16. This process is repeated untill all iterations are completed (iteration is a hyperparameter you fixed).
