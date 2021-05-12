@@ -1,4 +1,4 @@
-Monte Carlo Tree Search with Nested Rollout Policy Adaptation
+## Monte Carlo Tree Search with Nested Rollout Policy Adaptation
 
 ![image](https://user-images.githubusercontent.com/80279898/117935314-2bd64280-b336-11eb-8325-56b61f407930.png)
 
