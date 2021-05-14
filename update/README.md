@@ -1,6 +1,9 @@
 ## Question Update
 Last update: 6 May 2021
 
+### Basic Simulation Explanation/Clarification
+Please refer [`Basic Simulation.md`](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/blob/main/update/Basic%20Simulation.md) for more information.
+
 ### Basic Simulation with large N
 1. I did not explain clearly on how `Basic Simulation` method should handle test sets with large N in my question thus I added extra explanations here.
 2. If you choose to implement **Depth First Search (DFS)**, then when the searching process is taking too long to complete (longer than the maximum time you set) then it should stop the searching process and **return current best tour it found**.
