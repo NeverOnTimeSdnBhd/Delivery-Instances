@@ -9,12 +9,12 @@ _\**Image from Data Structure 2020/2021 Topic 9 Graph lecture slide_
 ### Conventional DFS / BFS
 It is a blind search without any evaluation metric/cost. So to search from A to P, we can imagine it as a search tree as shown below.  
 Note that both DFS and BFS stop searching once they searched **a path** from A to P.
-![Conventional DFS / BFS](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/update/DFS-BFS.gif)
+![Conventional DFS / BFS](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/blob/main/update/DFS-BFS.gif)
 
 ### Adapted DFS / BFS For Lowest Cost
 You can implement DFS / BFS to search for the lowest cost path. The trick here is just search through whole search tree.  
 Note that both DFS and BFS here did not stop searching after they found the first possible path. They store the path instead and continue searching for next possible path until whole search tree is explored.
-![Adapted DFS / BFS](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/update/DFS-BFS(Adapted).gif)
+![Adapted DFS / BFS](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/blob/main/update/DFS-BFS(Adapted).gif)
 
 ### Extra Note
 Of course, in this problem you have to consider vehicle and their capacities. It is not as simple as the example I shown above. This part I would like to leave it to you for you to think.
