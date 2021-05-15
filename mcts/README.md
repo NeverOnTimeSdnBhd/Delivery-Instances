@@ -10,7 +10,7 @@
 5. If you are not sure about how to edit it, then just follow the preset hyperparameter value given inside psedocode.
 
 ### Policy
-1. In reinforcement learning (RL), a policy $\pi(s)$ comprises the suggested actions that the agent should take for every possible state s \in S.
+1. In reinforcement learning (RL), a policy pi(s) comprises the suggested actions that the agent should take for every possible state s in S.
 2. In our problem context, agent refers to every vehicle and state refer to every station/node/customer.
 3. In pseudocode, the `global policy` is the policy defined above. It is a metric/reference for us to select every next move when we perform rollout. 
 4. You can imagine it like a probability distribution, let say I am at node A, I can go node B, C and D as my next node, then global policy is just the metric that tell me which next node I should go based on previous trial (Gif above shows you how policy is used when perform rollout, eg. when we want find next best next move from node 0, we check first row in the policy which comprises information about how favor node 0 select every other nodes as its next move).
