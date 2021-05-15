@@ -12,6 +12,13 @@ ALPHA = 1
 you can try to play around with the configuration parameters and policy to see what's their effect on the outcome
 */
 
+/**
+ * Input Parameters
+ * level: int, refer README.md for more info
+ * iterations: int, refer README.md for more info
+ * Return Type
+ * a_tour: class object, convey information about tour cost, all routes and etc. (depend on you)
+ */
 function search (level, iterations) {
     initialize best_tour with positive infinity cost
     if level = 0
@@ -30,6 +37,13 @@ function search (level, iterations) {
     return best_tour
 }
 
+/**
+ * Input Parameters
+ * a_tour: class object, convey information about tour cost, all routes and etc. (depend on you)
+ * level: int, refer README.md for more info
+ * Return Type
+ * No object returned (void)
+ */
 function adapt (a_tour, level) {
     for every route in a_tour
         for every stop in route
@@ -44,6 +58,9 @@ function adapt (a_tour, level) {
             set stop as visited
 }
 
+/**
+ * There is no parameters (input) nor object returned
+ */
 function rollout () {
     initialize new_tour with first route with first stop at 0  // every route must start and end at depot (ID=0)
     while true
@@ -63,6 +80,15 @@ function rollout () {
             set nextStop as checked
 }
 
+/**
+ * Input Parameters
+ * currentStop: depend, it can be an int or node class as long as it convey information about what is your current node 
+ * possible_successors: depend, it can be a list of int or list of node class objects as long as it convey information about what is the possible move from your current node
+ * [More explanations] let say I want search from A to B or C or D, then my currentStop is A, and if B is searched/checked and it is impossible to be next node of A anymore,
+ * then my possible_successors are C and D only. The 1d probability array will then be an double array of size 2 (2 possible nodes C and D).
+ * Return Type
+ * selected_successor: depend, it can be an int or node class as long as it convey information about what is the node selected to move next from current node
+ */
 function select_next_move(currentStop, possible_successors) {
     initialize 1d probability array that have same size with possible_successors
     sum = 0
