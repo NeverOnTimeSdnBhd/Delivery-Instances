@@ -1,0 +1,90 @@
+Basic Simulation
+Time elapsed: |=======================                                     | 23s
+Tour
+Tour Cost: 1939.7805837686142
+Vehicle 1
+0 -> 7 -> 1 -> 0
+Capacity: 38
+Cost: 292.32670229597255
+Vehicle 2
+0 -> 4 -> 0
+Capacity: 32
+Cost: 178.40403582878946
+Vehicle 3
+0 -> 5 -> 2 -> 0
+Capacity: 42
+Cost: 461.5134213156152
+Vehicle 4
+0 -> 8 -> 0
+Capacity: 39
+Cost: 306.93973349828775
+Vehicle 5
+0 -> 6 -> 0
+Capacity: 42
+Cost: 263.21094202179347
+Vehicle 6
+0 -> 3 -> 9 -> 0
+Capacity: 39
+Cost: 437.38574880815577
+
+Greedy Simulation
+Time elapsed: |                                                            | 0s
+Tour
+Tour Cost: 2138.0055975214254
+Vehicle 1
+0 -> 1 -> 3 -> 2 -> 0
+Capacity: 34
+Cost: 326.7196961741431
+Vehicle 2
+0 -> 4 -> 0
+Capacity: 32
+Cost: 178.40403582878946
+Vehicle 3
+0 -> 7 -> 0
+Capacity: 24
+Cost: 216.90550938138938
+Vehicle 4
+0 -> 6 -> 0
+Capacity: 42
+Cost: 263.2109420217937
+Vehicle 5
+0 -> 8 -> 0
+Capacity: 39
+Cost: 306.93973349828775
+Vehicle 6
+0 -> 9 -> 0
+Capacity: 34
+Cost: 415.24932269661804
+Vehicle 7
+0 -> 5 -> 0
+Capacity: 27
+Cost: 430.576357920404
+
+MCTS Simulation
+Time elapsed: |========================                                    | 24s
+Tour
+Tour Cost: 1939.7805837686142
+Vehicle 1
+0 -> 9 -> 3 -> 0
+Capacity: 39
+Cost: 437.3857488081559
+Vehicle 2
+0 -> 5 -> 2 -> 0
+Capacity: 42
+Cost: 461.51342131561523
+Vehicle 3
+0 -> 7 -> 1 -> 0
+Capacity: 38
+Cost: 292.3267022959725
+Vehicle 4
+0 -> 8 -> 0
+Capacity: 39
+Cost: 306.93973349828775
+Vehicle 5
+0 -> 4 -> 0
+Capacity: 32
+Cost: 178.40403582878935
+Vehicle 6
+0 -> 6 -> 0
+Capacity: 42
+Cost: 263.21094202179347
