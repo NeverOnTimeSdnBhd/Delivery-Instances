@@ -1,0 +1,150 @@
+Basic Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2958.025451439865
+Vehicle 1
+0 -> 3 -> 0
+Capacity: 13
+Cost: 247.52373623553763
+Vehicle 2
+0 -> 8 -> 4 -> 0
+Capacity: 35
+Cost: 340.75982100485805
+Vehicle 3
+0 -> 5 -> 0
+Capacity: 32
+Cost: 41.182520563947946
+Vehicle 4
+0 -> 7 -> 0
+Capacity: 37
+Cost: 196.06121493043952
+Vehicle 5
+0 -> 6 -> 9 -> 0
+Capacity: 35
+Cost: 349.1939418388955
+Vehicle 6
+0 -> 1 -> 0
+Capacity: 36
+Cost: 266.5933232472262
+Vehicle 7
+0 -> 2 -> 10 -> 0
+Capacity: 36
+Cost: 246.32324388603774
+Vehicle 8
+0 -> 11 -> 0
+Capacity: 33
+Cost: 85.08818954473054
+Vehicle 9
+0 -> 12 -> 13 -> 0
+Capacity: 32
+Cost: 164.6852875577813
+Vehicle 10
+0 -> 14 -> 15 -> 0
+Capacity: 37
+Cost: 447.0612029217764
+Vehicle 11
+0 -> 16 -> 17 -> 0
+Capacity: 36
+Cost: 289.1026225476576
+Vehicle 12
+0 -> 18 -> 0
+Capacity: 3
+Cost: 284.45034716097643
+
+Greedy Simulation
+Time elapsed: |                                                            | 0s
+Tour
+Tour Cost: 3105.3070378240645
+Vehicle 1
+0 -> 5 -> 13 -> 10 -> 0
+Capacity: 37
+Cost: 110.18033120654849
+Vehicle 2
+0 -> 11 -> 18 -> 4 -> 0
+Capacity: 38
+Cost: 518.6692467512423
+Vehicle 3
+0 -> 12 -> 0
+Capacity: 29
+Cost: 146.10954794263102
+Vehicle 4
+0 -> 14 -> 3 -> 0
+Capacity: 35
+Cost: 313.24117448293373
+Vehicle 5
+0 -> 7 -> 0
+Capacity: 37
+Cost: 196.06121493043975
+Vehicle 6
+0 -> 16 -> 17 -> 0
+Capacity: 36
+Cost: 289.1026225476578
+Vehicle 7
+0 -> 8 -> 0
+Capacity: 33
+Cost: 208.08652046684801
+Vehicle 8
+0 -> 2 -> 0
+Capacity: 34
+Cost: 246.03251817595174
+Vehicle 9
+0 -> 1 -> 0
+Capacity: 36
+Cost: 266.59332324722595
+Vehicle 10
+0 -> 15 -> 9 -> 0
+Capacity: 35
+Cost: 482.82834563167035
+Vehicle 11
+0 -> 6 -> 0
+Capacity: 15
+Cost: 328.4021924409153
+
+MCTS Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2358.3593771913725
+Vehicle 1
+0 -> 4 -> 15 -> 17 -> 0
+Capacity: 37
+Cost: 350.7369089861114
+Vehicle 2
+0 -> 9 -> 6 -> 18 -> 0
+Capacity: 38
+Cost: 364.3394415854673
+Vehicle 3
+0 -> 7 -> 0
+Capacity: 37
+Cost: 196.06121493043952
+Vehicle 4
+0 -> 13 -> 14 -> 10 -> 0
+Capacity: 27
+Cost: 163.80330021028942
+Vehicle 5
+0 -> 2 -> 0
+Capacity: 34
+Cost: 246.03251817595174
+Vehicle 6
+0 -> 1 -> 0
+Capacity: 36
+Cost: 266.5933232472262
+Vehicle 7
+0 -> 11 -> 0
+Capacity: 33
+Cost: 85.08818954473054
+Vehicle 8
+0 -> 12 -> 0
+Capacity: 29
+Cost: 146.10954794263125
+Vehicle 9
+0 -> 3 -> 16 -> 0
+Capacity: 29
+Cost: 290.32589153772915
+Vehicle 10
+0 -> 8 -> 0
+Capacity: 33
+Cost: 208.08652046684801
+Vehicle 11
+0 -> 5 -> 0
+Capacity: 32
+Cost: 41.182520563947946
