@@ -1,0 +1,110 @@
+Basic Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2188.4276702812476
+Vehicle 1
+0 -> 4 -> 1 -> 0
+Capacity: 50
+Cost: 326.41801544395594
+Vehicle 2
+0 -> 6 -> 0
+Capacity: 45
+Cost: 362.4913792078371
+Vehicle 3
+0 -> 2 -> 0
+Capacity: 36
+Cost: 227.54340245324624
+Vehicle 4
+0 -> 3 -> 0
+Capacity: 26
+Cost: 95.60334722173684
+Vehicle 5
+0 -> 5 -> 0
+Capacity: 48
+Cost: 177.0536641812305
+Vehicle 6
+0 -> 7 -> 0
+Capacity: 38
+Cost: 311.4482300479485
+Vehicle 7
+0 -> 8 -> 0
+Capacity: 34
+Cost: 382.16750254306044
+Vehicle 8
+0 -> 9 -> 10 -> 0
+Capacity: 49
+Cost: 305.70212918223206
+
+Greedy Simulation
+Time elapsed: |                                                            | 0s
+Tour
+Tour Cost: 2194.168941058636
+Vehicle 1
+0 -> 10 -> 3 -> 0
+Capacity: 40
+Cost: 101.3671763886718
+Vehicle 2
+0 -> 5 -> 0
+Capacity: 48
+Cost: 177.05366418123066
+Vehicle 3
+0 -> 2 -> 0
+Capacity: 36
+Cost: 227.54340245324624
+Vehicle 4
+0 -> 9 -> 0
+Capacity: 35
+Cost: 305.6795707926848
+Vehicle 5
+0 -> 7 -> 0
+Capacity: 38
+Cost: 311.44823004794875
+Vehicle 6
+0 -> 4 -> 1 -> 0
+Capacity: 50
+Cost: 326.41801544395616
+Vehicle 7
+0 -> 6 -> 0
+Capacity: 45
+Cost: 362.4913792078373
+Vehicle 8
+0 -> 8 -> 0
+Capacity: 34
+Cost: 382.1675025430602
+
+MCTS Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2188.4276702812476
+Vehicle 1
+0 -> 9 -> 10 -> 0
+Capacity: 49
+Cost: 305.70212918223217
+Vehicle 2
+0 -> 8 -> 0
+Capacity: 34
+Cost: 382.1675025430603
+Vehicle 3
+0 -> 1 -> 4 -> 0
+Capacity: 50
+Cost: 326.41801544395594
+Vehicle 4
+0 -> 3 -> 0
+Capacity: 26
+Cost: 95.60334722173684
+Vehicle 5
+0 -> 5 -> 0
+Capacity: 48
+Cost: 177.0536641812305
+Vehicle 6
+0 -> 7 -> 0
+Capacity: 38
+Cost: 311.4482300479485
+Vehicle 7
+0 -> 6 -> 0
+Capacity: 45
+Cost: 362.4913792078373
+Vehicle 8
+0 -> 2 -> 0
+Capacity: 36
+Cost: 227.54340245324602
