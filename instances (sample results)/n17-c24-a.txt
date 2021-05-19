@@ -1,0 +1,110 @@
+Basic Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2254.855192759892
+Vehicle 1
+0 -> 3 -> 1 -> 10 -> 6 -> 0
+Capacity: 24
+Cost: 528.198890047597
+Vehicle 2
+0 -> 8 -> 9 -> 4 -> 0
+Capacity: 23
+Cost: 272.3023299146489
+Vehicle 3
+0 -> 5 -> 7 -> 0
+Capacity: 22
+Cost: 389.09950131136236
+Vehicle 4
+0 -> 2 -> 11 -> 0
+Capacity: 21
+Cost: 300.6806031394681
+Vehicle 5
+0 -> 12 -> 0
+Capacity: 8
+Cost: 186.09674903125006
+Vehicle 6
+0 -> 13 -> 0
+Capacity: 21
+Cost: 154.1557653803452
+Vehicle 7
+0 -> 14 -> 15 -> 0
+Capacity: 16
+Cost: 336.23049175303936
+Vehicle 8
+0 -> 16 -> 0
+Capacity: 20
+Cost: 88.0908621821809
+
+Greedy Simulation
+Time elapsed: |                                                            | 0s
+Tour
+Tour Cost: 2855.6680271242603
+Vehicle 1
+0 -> 8 -> 14 -> 9 -> 11 -> 7 -> 6 -> 0
+Capacity: 24
+Cost: 508.499802988973
+Vehicle 2
+0 -> 16 -> 10 -> 0
+Capacity: 23
+Cost: 358.3531829695121
+Vehicle 3
+0 -> 13 -> 0
+Capacity: 21
+Cost: 154.1557653803452
+Vehicle 4
+0 -> 12 -> 3 -> 15 -> 0
+Capacity: 22
+Cost: 470.82334189148287
+Vehicle 5
+0 -> 4 -> 0
+Capacity: 12
+Cost: 272.1837614553815
+Vehicle 6
+0 -> 2 -> 0
+Capacity: 18
+Cost: 279.1773629791642
+Vehicle 7
+0 -> 5 -> 0
+Capacity: 21
+Cost: 387.55128692858216
+Vehicle 8
+0 -> 1 -> 0
+Capacity: 14
+Cost: 424.92352253081935
+
+MCTS Simulation
+Time elapsed: |============================================================| 60s (Searching is forced to stop!)
+Tour
+Tour Cost: 2075.29393375741
+Vehicle 1
+0 -> 9 -> 3 -> 1 -> 10 -> 6 -> 0
+Capacity: 24
+Cost: 546.6888249949503
+Vehicle 2
+0 -> 7 -> 5 -> 0
+Capacity: 22
+Cost: 389.0995013113625
+Vehicle 3
+0 -> 11 -> 15 -> 4 -> 0
+Capacity: 22
+Cost: 337.95372239117194
+Vehicle 4
+0 -> 14 -> 12 -> 0
+Capacity: 17
+Cost: 264.0033790216378
+Vehicle 5
+0 -> 16 -> 0
+Capacity: 20
+Cost: 88.0908621821809
+Vehicle 6
+0 -> 8 -> 0
+Capacity: 11
+Cost: 16.12451549659727
+Vehicle 7
+0 -> 13 -> 0
+Capacity: 21
+Cost: 154.1557653803452
+Vehicle 8
+0 -> 2 -> 0
+Capacity: 18
+Cost: 279.17736297916395
