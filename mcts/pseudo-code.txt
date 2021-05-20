@@ -59,7 +59,8 @@ function adapt (a_tour, level) {
 }
 
 /**
- * There is no parameters (input) nor object returned
+ * Return Type
+ * a_tour: class object, convey information about tour cost, all routes and etc. (depend on you)
  */
 function rollout () {
     initialize new_tour with first route with first stop at 0  // every route must start and end at depot (ID=0)
@@ -78,6 +79,7 @@ function rollout () {
             set nextStop as visited
         else
             set nextStop as checked
+    return new_tour
 }
 
 /**
