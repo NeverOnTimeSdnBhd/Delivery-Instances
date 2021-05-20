@@ -1,7 +1,7 @@
 ## Monte Carlo Tree Search with Nested Rollout Policy Adaptation
 
 ### Update
-Thanks to our friend https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/issues/6 for pointing the mistake I made for `rollout` function, it should return a `Tour` object instead of `void`.
+Thanks to our friend https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/issues/6 for pointing the mistake I made for `rollout` function: **it should return a `Tour` object instead of `void`**.
 
 ![NRPA](https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/blob/main/mcts/NRPA.gif)
 
