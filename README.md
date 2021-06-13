@@ -1,5 +1,9 @@
 # Delivery-Instances
 
+## Last Update (13 June)
+1. Tomorrow is the submission deadline so please don't forget to submit your assignment.
+2. I have a suggestion for project sharing, for more information please read: https://github.com/NeverOnTimeSdnBhd/Delivery-Instances/issues/30.
+
 ## Introduction
 1. Welcome to WIA1002/WIB1002 Data Structure course Session 2020/2021 Semester 2 Group Project 2!  
 2. This project is about exploring different methods to search for a best route with limited time!  
